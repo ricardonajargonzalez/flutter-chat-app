@@ -78,6 +78,7 @@ class __FormState extends State<_Form> {
               BottonAzul(raisedButtonStyle: raisedButtonStyle, text: "ENTER", onPress: (){
                   print("ctlemail " + ctlemail.text);
                   print("ctlpass " + ctlpass.text);
+                  Navigator.of(context).pushReplacementNamed('usuarios');
               },)
         ],
       ),
